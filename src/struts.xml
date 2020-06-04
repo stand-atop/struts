@@ -1,0 +1,13 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="hello" extends="struts-default">
+						  <!-- 파일 상속 include와 비슷함 -->
+		<action name="hello" class="test.struts.model.HelloAction">
+			<result>/0427/hello.jsp</result>
+		</action>
+	</package>
+</struts>
+
